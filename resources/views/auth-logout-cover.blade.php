@@ -16,7 +16,7 @@
 
                 <div class="mt-8 text-center">
                     <div class="mb-4 text-center">
-                        <i data-lucide="log-out" class="w-6 h-6 mx-auto text-purple-500 fill-purple-100"></i>
+                        <i data-lucide="log-out" class="size-6 mx-auto text-purple-500 fill-purple-100"></i>
                     </div>
                     <h4 class="mb-2 text-custom-500 dark:text-custom-500">You are Logged Out</h4>
                     <p class="mb-8 text-slate-500 dark:text-zink-200">Thank you for using tailwick admin template</p>

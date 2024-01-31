@@ -4,7 +4,7 @@
 @endsection
 @section('content')
     <!-- page title -->
-    <x-page-title title="UI Elements" pagetitle="Pages" />
+    <x-page-title title="Starter" pagetitle="Pages" />
 @endsection
 @push('scripts')
     <!-- App js -->

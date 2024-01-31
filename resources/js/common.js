@@ -1,6 +1,6 @@
 /*
-Website: https://Themesbrand.com/
-Contact: Themesbrand@gmail.com
+Website: https://themesdesign.in/
+Contact: themesdesign@gmail.com
 File: Common Plugins Js File
 */
 

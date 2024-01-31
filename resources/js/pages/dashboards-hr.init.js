@@ -1,7 +1,7 @@
 /*
 Template Name: Tailwick - Admin & Dashboard Template
 Author: Themesdesign
-Version: 1.0.0
+Version: 1.1.0
 Website: https://themesdesign.in/
 Contact: Themesdesign@gmail.com
 File: dashboard hr init Js File
@@ -272,7 +272,7 @@ function loadCharts() {
                 data: [30, 25, 36, 30, 45, 35, 64, 52, 59, 36, 39]
             }],
             chart: {
-                height: 260,
+                height: 315,
                 type: 'line',
                 stacked: false,
                 margin: {

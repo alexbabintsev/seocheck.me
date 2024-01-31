@@ -25,7 +25,7 @@
                         it will be just like Occidental to an English speaker.</p>
                     <a href="{{ url('index') }}"
                         class="text-white transition-all duration-200 ease-linear btn bg-custom-500 border-custom-500 hover:text-white hover:bg-custom-600 hover:border-custom-600 focus:text-white focus:bg-custom-600 focus:border-custom-600 focus:ring focus:ring-custom-100 active:text-white active:bg-custom-600 active:border-custom-600 active:ring active:ring-custom-100 dark:ring-custom-400/20"><i
-                            data-lucide="home" class="inline-block w-3 h-3 ltr:mr-1 rtl:ml-1"></i> <span
+                            data-lucide="home" class="inline-block size-3 ltr:mr-1 rtl:ml-1"></i> <span
                             class="align-middle">Back to Home</span></a>
                 </div>
             </div>

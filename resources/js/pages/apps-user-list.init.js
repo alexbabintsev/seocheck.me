@@ -1,7 +1,7 @@
 /*
 Template Name: Tailwick - Admin & Dashboard Template
 Author: Themesdesign
-Version: 1.0.0
+Version: 1.1.0
 Website: https://themesdesign.in/
 Contact: Themesdesign@gmail.com
 File: apps user list init Js File

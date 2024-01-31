@@ -1,6 +1,6 @@
 <div class="fixed items-center hidden bottom-6 right-12 h-header group-data-[navbar=hidden]:flex">
-    <button data-drawer-target="customizerButton" type="button" class="inline-flex items-center justify-center w-12 h-12 p-0 transition-all duration-200 ease-linear rounded-md shadow-lg text-sky-50 bg-sky-500">
-        <i data-lucide="settings" class="inline-block w-5 h-5"></i>
+    <button data-drawer-target="customizerButton" type="button" class="inline-flex items-center justify-center size-12 p-0 transition-all duration-200 ease-linear rounded-md shadow-lg text-sky-50 bg-sky-500">
+        <i data-lucide="settings" class="inline-block size-5"></i>
     </button>
 </div>
 
@@ -11,7 +11,7 @@
             <p class="font-normal text-slate-500 dark:text-zink-200">Choose your themes & layouts etc.</p>
         </div>
         <div class="shrink-0">
-            <button data-drawer-close="customizerButton" class="transition-all duration-150 ease-linear text-slate-500 hover:text-slate-800 dark:text-zink-200 dark:hover:text-zink-50"><i data-lucide="x" class="w-4 h-4"></i></button>
+            <button data-drawer-close="customizerButton" class="transition-all duration-150 ease-linear text-slate-500 hover:text-slate-800 dark:text-zink-200 dark:hover:text-zink-50"><i data-lucide="x" class="size-4"></i></button>
         </div>
     </div>
     <div class="h-full p-6 overflow-y-auto">
@@ -19,7 +19,7 @@
             <h5 class="mb-3 underline capitalize text-15">Choose Layouts</h5>
             <div class="grid grid-cols-1 mb-5 gap-7 sm:grid-cols-2">
                 <div class="relative">
-                    <input id="layout-one" name="dataLayout" class="absolute w-4 h-4 border rounded-full appearance-none cursor-pointer ltr:right-2 rtl:left-2 top-2 vertical-menu-btn bg-slate-100 border-slate-300 checked:bg-custom-500 checked:border-custom-500 dark:bg-zink-400 dark:border-zink-500" type="radio" value="vertical" checked>
+                    <input id="layout-one" name="dataLayout" class="absolute size-4 border rounded-full appearance-none cursor-pointer ltr:right-2 rtl:left-2 top-2 vertical-menu-btn bg-slate-100 border-slate-300 checked:bg-custom-500 checked:border-custom-500 dark:bg-zink-400 dark:border-zink-500" type="radio" value="vertical" checked>
                     <label class="block w-full h-24 p-0 overflow-hidden border rounded-lg cursor-pointer border-slate-200 dark:border-zink-500" for="layout-one">
                         <span class="flex h-full gap-0">
                             <span class="shrink-0">
@@ -42,7 +42,7 @@
                 </div>
 
                 <div class="relative">
-                    <input id="layout-two" name="dataLayout" class="absolute w-4 h-4 border rounded-full appearance-none cursor-pointer ltr:right-2 rtl:left-2 top-2 vertical-menu-btn bg-slate-100 border-slate-300 checked:bg-custom-500 checked:border-custom-500 dark:bg-zink-400 dark:border-zink-500" type="radio" value="horizontal">
+                    <input id="layout-two" name="dataLayout" class="absolute size-4 border rounded-full appearance-none cursor-pointer ltr:right-2 rtl:left-2 top-2 vertical-menu-btn bg-slate-100 border-slate-300 checked:bg-custom-500 checked:border-custom-500 dark:bg-zink-400 dark:border-zink-500" type="radio" value="horizontal">
                     <label class="block w-full h-24 p-0 overflow-hidden border rounded-lg cursor-pointer border-slate-200 dark:border-zink-500" for="layout-two">
                         <span class="flex flex-col h-full gap-1">
                             <span class="flex items-center gap-1 p-1 bg-slate-100 dark:bg-zink-500">
@@ -61,7 +61,7 @@
             <div id="semi-dark">
                 <div class="flex items-center">
                     <div class="relative inline-block w-10 mr-2 align-middle transition duration-200 ease-in">
-                        <input type="checkbox" name="customDefaultSwitch" value="dark" id="customDefaultSwitch" class="absolute block w-5 h-5 transition duration-300 ease-linear border-2 rounded-full appearance-none cursor-pointer border-slate-200 bg-white/80 peer/published checked:bg-white checked:right-0 checked:border-custom-500 arrow-none dark:border-zink-500 dark:bg-zink-500 dark:checked:bg-zink-400 checked:bg-none">
+                        <input type="checkbox" name="customDefaultSwitch" value="dark" id="customDefaultSwitch" class="absolute block size-5 transition duration-300 ease-linear border-2 rounded-full appearance-none cursor-pointer border-slate-200 bg-white/80 peer/published checked:bg-white checked:right-0 checked:border-custom-500 arrow-none dark:border-zink-500 dark:bg-zink-500 dark:checked:bg-zink-400 checked:bg-none">
                         <label for="customDefaultSwitch" class="block h-5 overflow-hidden transition duration-300 ease-linear border rounded-full cursor-pointer border-slate-200 bg-slate-200 peer-checked/published:bg-custom-500 peer-checked/published:border-custom-500 dark:border-zink-500 dark:bg-zink-600"></label>
                     </div>
                     <label for="customDefaultSwitch" class="inline-block text-base font-medium">Semi Dark (Sidebar & Header)</label>
@@ -74,7 +74,7 @@
             <h5 class="mb-3 underline capitalize text-15">Skin Layouts</h5>
             <div class="grid grid-cols-1 mb-5 gap-7 sm:grid-cols-2">
                 <div class="relative">
-                    <input id="layoutSkitOne" name="dataLayoutSkin" class="absolute w-4 h-4 border rounded-full appearance-none cursor-pointer ltr:right-2 rtl:left-2 top-2 vertical-menu-btn bg-slate-100 border-slate-300 checked:bg-custom-500 checked:border-custom-500 dark:bg-zink-400 dark:border-zink-500" type="radio" value="default">
+                    <input id="layoutSkitOne" name="dataLayoutSkin" class="absolute size-4 border rounded-full appearance-none cursor-pointer ltr:right-2 rtl:left-2 top-2 vertical-menu-btn bg-slate-100 border-slate-300 checked:bg-custom-500 checked:border-custom-500 dark:bg-zink-400 dark:border-zink-500" type="radio" value="default">
                     <label class="block w-full h-24 p-0 overflow-hidden border rounded-lg cursor-pointer border-slate-200 dark:border-zink-500 bg-slate-50 dark:bg-zink-600" for="layoutSkitOne">
                         <span class="flex h-full gap-0">
                             <span class="shrink-0">
@@ -97,7 +97,7 @@
                 </div>
         
                 <div class="relative">
-                    <input id="layoutSkitTwo" name="dataLayoutSkin" class="absolute w-4 h-4 border rounded-full appearance-none cursor-pointer ltr:right-2 rtl:left-2 top-2 vertical-menu-btn bg-slate-100 border-slate-300 checked:bg-custom-500 checked:border-custom-500 dark:bg-zink-400 dark:border-zink-500" type="radio" value="bordered" checked>
+                    <input id="layoutSkitTwo" name="dataLayoutSkin" class="absolute size-4 border rounded-full appearance-none cursor-pointer ltr:right-2 rtl:left-2 top-2 vertical-menu-btn bg-slate-100 border-slate-300 checked:bg-custom-500 checked:border-custom-500 dark:bg-zink-400 dark:border-zink-500" type="radio" value="bordered" checked>
                     <label class="block w-full h-24 p-0 overflow-hidden border rounded-lg cursor-pointer border-slate-200 dark:border-zink-500" for="layoutSkitTwo">
                         <span class="flex h-full gap-0">
                             <span class="shrink-0">
@@ -158,7 +158,7 @@
             </div>
         </div>
 
-        <div class="mt-6">
+        <div class="mt-6" id="navigation-type">
             <!-- data-navbar="" -->
             <h5 class="mb-3 underline capitalize text-15">Navigation Type</h5>
             <div class="flex flex-wrap gap-3">
@@ -173,10 +173,10 @@
             <!-- data-sidebar="" light, dark, brand, modern-->
             <h5 class="mb-3 underline capitalize text-15">Sizebar Colors</h5>
             <div class="flex flex-wrap gap-3">
-                <button type="button" id="sidebarColorOne" name="sidebarColor" value="light" class="flex items-center justify-center w-10 h-10 bg-white border rounded-md border-slate-200 group active"><i data-lucide="check" class="w-5 h-5 hidden group-[.active]:inline-block text-slate-600"></i></button>
-                <button type="button" id="sidebarColorTwo" name="sidebarColor" value="dark" class="flex items-center justify-center w-10 h-10 border rounded-md border-zink-900 bg-zink-900 group"><i data-lucide="check" class="w-5 h-5 hidden group-[.active]:inline-block text-white"></i></button>
-                <button type="button" id="sidebarColorThree" name="sidebarColor" value="brand" class="flex items-center justify-center w-10 h-10 border rounded-md border-custom-800 bg-custom-800 group"><i data-lucide="check" class="w-5 h-5 hidden group-[.active]:inline-block text-white"></i></button>
-                <button type="button" id="sidebarColorFour" name="sidebarColor" value="modern" class="flex items-center justify-center w-10 h-10 border rounded-md border-purple-950 bg-gradient-to-t from-red-400 to-purple-500 group"><i data-lucide="check" class="w-5 h-5 hidden group-[.active]:inline-block text-white"></i></button>
+                <button type="button" id="sidebarColorOne" name="sidebarColor" value="light" class="flex items-center justify-center size-10 bg-white border rounded-md border-slate-200 group active"><i data-lucide="check" class="size-5 hidden group-[.active]:inline-block text-slate-600"></i></button>
+                <button type="button" id="sidebarColorTwo" name="sidebarColor" value="dark" class="flex items-center justify-center size-10 border rounded-md border-zink-900 bg-zink-900 group"><i data-lucide="check" class="size-5 hidden group-[.active]:inline-block text-white"></i></button>
+                <button type="button" id="sidebarColorThree" name="sidebarColor" value="brand" class="flex items-center justify-center size-10 border rounded-md border-custom-800 bg-custom-800 group"><i data-lucide="check" class="size-5 hidden group-[.active]:inline-block text-white"></i></button>
+                <button type="button" id="sidebarColorFour" name="sidebarColor" value="modern" class="flex items-center justify-center size-10 border rounded-md border-purple-950 bg-gradient-to-t from-red-400 to-purple-500 group"><i data-lucide="check" class="size-5 hidden group-[.active]:inline-block text-white"></i></button>
             </div>
         </div>
         
@@ -184,9 +184,9 @@
             <!-- data-topbar="" light, dark, brand, modern-->
             <h5 class="mb-3 underline capitalize text-15">Topbar Colors</h5>
             <div class="flex flex-wrap gap-3">
-                <button type="button" id="topbarColorOne" name="topbarColor" value="light" class="flex items-center justify-center w-10 h-10 bg-white border rounded-md border-slate-200 group active"><i data-lucide="check" class="w-5 h-5 hidden group-[.active]:inline-block text-slate-600"></i></button>
-                <button type="button" id="topbarColorTwo" name="topbarColor" value="dark" class="flex items-center justify-center w-10 h-10 border rounded-md border-zink-900 bg-zink-900 group"><i data-lucide="check" class="w-5 h-5 hidden group-[.active]:inline-block text-white"></i></button>
-                <button type="button" id="topbarColorThree" name="topbarColor" value="brand" class="flex items-center justify-center w-10 h-10 border rounded-md border-custom-800 bg-custom-800 group"><i data-lucide="check" class="w-5 h-5 hidden group-[.active]:inline-block text-white"></i></button>
+                <button type="button" id="topbarColorOne" name="topbarColor" value="light" class="flex items-center justify-center size-10 bg-white border rounded-md border-slate-200 group active"><i data-lucide="check" class="size-5 hidden group-[.active]:inline-block text-slate-600"></i></button>
+                <button type="button" id="topbarColorTwo" name="topbarColor" value="dark" class="flex items-center justify-center size-10 border rounded-md border-zink-900 bg-zink-900 group"><i data-lucide="check" class="size-5 hidden group-[.active]:inline-block text-white"></i></button>
+                <button type="button" id="topbarColorThree" name="topbarColor" value="brand" class="flex items-center justify-center size-10 border rounded-md border-custom-800 bg-custom-800 group"><i data-lucide="check" class="size-5 hidden group-[.active]:inline-block text-white"></i></button>
             </div>
         </div>
         

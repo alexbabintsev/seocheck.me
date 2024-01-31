@@ -93,13 +93,13 @@
                                 <li class="group grow active">
                                     <a href="javascript:void(0);" data-tab-toggle data-target="emailLogin"
                                         class="inline-block px-4 w-full py-2 text-base transition-all duration-300 ease-linear rounded-md text-slate-500 bg-slate-100 dark:text-zink-200 dark:bg-zink-600 border border-transparent group-[.active]:bg-custom-500 dark:group-[.active]:bg-custom-500 group-[.active]:text-white dark:group-[.active]:text-white hover:text-custom-500 dark:hover:text-custom-500 active:text-custom-500 dark:active:text-custom-500 -mb-[1px]"><i
-                                            data-lucide="mail" class="inline-block w-4 h-4 mr-1"></i> <span
+                                            data-lucide="mail" class="inline-block size-4 mr-1"></i> <span
                                             class="align-middle">Email</span></a>
                                 </li>
                                 <li class="group grow">
                                     <a href="javascript:void(0);" data-tab-toggle data-target="phoneLogin"
                                         class="inline-block px-4 w-full py-2 text-base transition-all duration-300 ease-linear rounded-md text-slate-500 bg-slate-100 dark:text-zink-200 dark:bg-zink-600 border border-transparent group-[.active]:bg-custom-500 dark:group-[.active]:bg-custom-500 group-[.active]:text-white dark:group-[.active]:text-white hover:text-custom-500 dark:hover:text-custom-500 active:text-custom-500 dark:active:text-custom-500 -mb-[1px]"><i
-                                            data-lucide="smartphone" class="inline-block w-4 h-4 mr-1"></i> <span
+                                            data-lucide="smartphone" class="inline-block size-4 mr-1"></i> <span
                                             class="align-middle">Phone</span></a>
                                 </li>
                             </ul>
@@ -134,7 +134,7 @@
                                         <div>
                                             <div class="flex items-center gap-2">
                                                 <input id="emailCheckRememberMe"
-                                                    class="w-4 h-4 border rounded-sm appearance-none bg-slate-100 border-slate-200 dark:bg-zink-600 dark:border-zink-500 checked:bg-custom-500 checked:border-custom-500 dark:checked:bg-custom-500 dark:checked:border-custom-500 checked:disabled:bg-custom-400 checked:disabled:border-custom-400"
+                                                    class="size-4 border rounded-sm appearance-none bg-slate-100 border-slate-200 dark:bg-zink-600 dark:border-zink-500 checked:bg-custom-500 checked:border-custom-500 dark:checked:bg-custom-500 dark:checked:border-custom-500 checked:disabled:bg-custom-400 checked:disabled:border-custom-400"
                                                     type="checkbox" value="">
                                                 <label for="emailCheckRememberMe"
                                                     class="inline-block text-base font-medium align-middle cursor-pointer">Remember
@@ -178,7 +178,7 @@
                                         <div>
                                             <div class="flex items-center gap-2">
                                                 <input id="phoneCheckRememberMe"
-                                                    class="w-4 h-4 border rounded-sm appearance-none bg-slate-100 border-slate-200 dark:bg-zink-600 dark:border-zink-500 checked:bg-custom-500 checked:border-custom-500 dark:checked:bg-custom-500 dark:checked:border-custom-500 checked:disabled:bg-custom-400 checked:disabled:border-custom-400"
+                                                    class="size-4 border rounded-sm appearance-none bg-slate-100 border-slate-200 dark:bg-zink-600 dark:border-zink-500 checked:bg-custom-500 checked:border-custom-500 dark:checked:bg-custom-500 dark:checked:border-custom-500 checked:disabled:bg-custom-400 checked:disabled:border-custom-400"
                                                     type="checkbox" value="">
                                                 <label for="phoneCheckRememberMe"
                                                     class="inline-block text-base font-medium align-middle cursor-pointer">Remember
@@ -204,17 +204,17 @@
 
                             <div class="flex flex-wrap justify-center gap-2">
                                 <button type="button"
-                                    class="flex items-center justify-center w-[37.5px] h-[37.5px] transition-all duration-200 ease-linear p-0 text-custom-500 btn bg-custom-100 border-custom-100 hover:text-white hover:bg-custom-600 hover:border-custom-600 focus:text-white focus:bg-custom-600 focus:border-custom-600 active:text-white active:bg-custom-600 active:border-custom-600"><i
-                                        data-lucide="facebook" class="w-4 h-4"></i></button>
+                                    class="flex items-center justify-center size-[37.5px] transition-all duration-200 ease-linear p-0 text-custom-500 btn bg-custom-100 border-custom-100 hover:text-white hover:bg-custom-600 hover:border-custom-600 focus:text-white focus:bg-custom-600 focus:border-custom-600 active:text-white active:bg-custom-600 active:border-custom-600"><i
+                                        data-lucide="facebook" class="size-4"></i></button>
                                 <button type="button"
-                                    class="flex items-center justify-center w-[37.5px] h-[37.5px] transition-all duration-200 ease-linear p-0 text-orange-500 btn bg-orange-100 border-orange-100 hover:text-white hover:bg-orange-600 hover:border-orange-600 focus:text-white focus:bg-orange-600 focus:border-orange-600 active:text-white active:bg-orange-600 active:border-orange-600"><i
-                                        data-lucide="mail" class="w-4 h-4"></i></button>
+                                    class="flex items-center justify-center size-[37.5px] transition-all duration-200 ease-linear p-0 text-orange-500 btn bg-orange-100 border-orange-100 hover:text-white hover:bg-orange-600 hover:border-orange-600 focus:text-white focus:bg-orange-600 focus:border-orange-600 active:text-white active:bg-orange-600 active:border-orange-600"><i
+                                        data-lucide="mail" class="size-4"></i></button>
                                 <button type="button"
-                                    class="flex items-center justify-center w-[37.5px] h-[37.5px] transition-all duration-200 ease-linear p-0 text-sky-500 btn bg-sky-100 border-sky-100 hover:text-white hover:bg-sky-600 hover:border-sky-600 focus:text-white focus:bg-sky-600 focus:border-sky-600 active:text-white active:bg-sky-600 active:border-sky-600"><i
-                                        data-lucide="twitter" class="w-4 h-4"></i></button>
+                                    class="flex items-center justify-center size-[37.5px] transition-all duration-200 ease-linear p-0 text-sky-500 btn bg-sky-100 border-sky-100 hover:text-white hover:bg-sky-600 hover:border-sky-600 focus:text-white focus:bg-sky-600 focus:border-sky-600 active:text-white active:bg-sky-600 active:border-sky-600"><i
+                                        data-lucide="twitter" class="size-4"></i></button>
                                 <button type="button"
-                                    class="flex items-center justify-center w-[37.5px] h-[37.5px] transition-all duration-200 ease-linear p-0 text-slate-500 btn bg-slate-200 border-slate-200 hover:text-white hover:bg-slate-600 hover:border-slate-600 focus:text-white focus:bg-slate-600 focus:border-slate-600 active:text-white active:bg-slate-600 active:border-slate-600"><i
-                                        data-lucide="github" class="w-4 h-4"></i></button>
+                                    class="flex items-center justify-center size-[37.5px] transition-all duration-200 ease-linear p-0 text-slate-500 btn bg-slate-200 border-slate-200 hover:text-white hover:bg-slate-600 hover:border-slate-600 focus:text-white focus:bg-slate-600 focus:border-slate-600 active:text-white active:bg-slate-600 active:border-slate-600"><i
+                                        data-lucide="github" class="size-4"></i></button>
                             </div>
 
                             <div class="mt-10 text-center">

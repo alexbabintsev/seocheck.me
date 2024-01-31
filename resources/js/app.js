@@ -1,7 +1,7 @@
 /*
 Template Name: Tailwick - Admin & Dashboard Template
 Author: Themesdesign
-Version: 1.0.0
+Version: 1.1.0
 Website: https://themesdesign.in/
 Contact: Themesdesign@gmail.com
 File: Main Js File
@@ -235,15 +235,19 @@ function hideShowLayoutOptions(dataLayout) {
         if (document.getElementById("customizerButton")) {
             document.getElementById("sidebar-size").style.display = "none";
             document.getElementById("sidebar-color").style.display = "none";
+            document.getElementById("navigation-type").style.display = "none";
             document.documentElement.removeAttribute("data-sidebar-size");
             document.documentElement.removeAttribute("data-sidebar");
+            document.documentElement.removeAttribute("data-navbar");
         }
     } else {
         if (document.getElementById("customizerButton")) {
             document.getElementById("sidebar-size").style.display = "block";
             document.getElementById("sidebar-color").style.display = "block";
+            document.getElementById("navigation-type").style.display = "block";
             document.documentElement.setAttribute("data-sidebar-size", sessionStorage.getItem("data-sidebar-size"));
             document.documentElement.setAttribute("data-sidebar", sessionStorage.getItem("data-sidebar"));
+            document.documentElement.setAttribute("data-navbar", sessionStorage.getItem("data-navbar"));
         }
     }
 }
@@ -323,9 +327,9 @@ function setDefaultAttribute() {
                 isLayoutAttributes[nodeKey] = x.nodeValue;
                 sessionStorage.setItem(nodeKey, x.nodeValue);
             }
+            layoutSwitch(isLayoutAttributes);
         });
         sessionStorage.setItem("defaultAttribute", JSON.stringify(isLayoutAttributes));
-        layoutSwitch(isLayoutAttributes);
     } else {
         var isLayoutAttributes = {};
         var attributesToRetrieve = [

@@ -1,5 +1,5 @@
 {
-    "name": "Tailwick",
+    "name": "seocheck",
     "private": true,
     "type": "module",
     "scripts": {
@@ -59,7 +59,7 @@
         "simplebar": "^6.2.5",
         "sweetalert2": "11.10.1",
         "swiper": "^11.0.5",
-        "tailwindcss": "3.3.5",
+        "tailwindcss": "3.4.1",
         "tippy.js": "^6.3.7",
         "toastify-js": "1.12.0",
         "vanilla-calendar-pro": "^2.9.2"

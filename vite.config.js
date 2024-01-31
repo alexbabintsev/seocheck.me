@@ -20,7 +20,7 @@ export default defineConfig({
         rollupOptions: {
             output: {
                 assetFileNames: (css) => {
-                    if (css.name.split('.').pop() == 'css') {
+                    if (css.name.split('.').pop() === 'css') {
                         return 'css/' + `[name]` + '.min.' + 'css';
                     } else {
                         return 'icons/' + css.name;
